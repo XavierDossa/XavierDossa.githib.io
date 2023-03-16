@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <link rel="stylesheet" href="styler.css">
+    <style>
+        .main{
+            width:200px;
+            height:200px;
+            border:2px solid red;
+        }
+        #inner1, #inner2, #inner3, #inner4{
+            width:100px;
+            height:100px;
+        }
+        #inner1{
+            border:2px solid gold;
+            position:relative;
+            top:100px;
+        } 
+        #inner2{
+            border:2px solid green;
+            position:fixed;
+            bottom:100px;
+        }
+        #inner3{
+            border:2px solid blue;
+            position:absolute;
+            left:100px;
+        }
+        #inner4{
+            border:2px solid orange;
+            position:sticky;
+            right:100px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="Title">Position Task</h1>
+    <nav>
+        <a href="unorderedlist.html" id="NavLink">Unordered List Task</a>
+        <a href="orderedlist.html" id="NavLink">Ordered List Task</a>
+        <a href="seashells.html" id="NavLink">Seashells Task</a>
+        <a href="position.html" id="NavLink">Position Task</a>
+        <a href="pseudoclass.html" id="NavLink">Pseudoclass</a>
+        <a href="index.html" id="NavLink">Home</a>
+    </nav>
+
+    <div class="main">
+        <div id="inner1">
+            Relative
+        </div>
+    </div>
+    <div class="main">
+        <div id="inner2">
+            Fixed
+        </div>
+    </div>
+    <div class="main">
+        <div id="inner3">
+            Absolute
+        </div>
+    </div>
+    <div class="main">
+        <div id="inner4">
+            Sticky
+        </div>
+    </div>
+</body>
+</html>
