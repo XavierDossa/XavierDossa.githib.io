@@ -1,6 +1,7 @@
 body{
     background-color: rgb(235, 235, 235);
-     color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    
 }
 nav{
     background-color:rgb(208, 208, 208); 
@@ -8,6 +9,8 @@ nav{
     font-size:large; 
     color:rgb(136, 62, 220);
     padding:10px;
+    position:sticky;
+    top:50px;
 }
 #NavLink{
     padding:10px;
@@ -17,11 +20,8 @@ nav{
     color:white; 
     padding:8px; 
     text-align:center;
-}
-#Thirty{
-    width:30%; 
-    float:right;
-    text-align:center;
+    position:sticky;
+    top:0;
 }
 th, td{
     border:2px solid black; 
@@ -53,4 +53,17 @@ img{
     height:250px; 
     width:250px; 
     display: inline-block;
+}
+#sidebar{
+    float:left;
+    padding: 20px top;
+}
+table{
+    padding:10px;
+}
+a:hover{
+  background-color:rgb(150, 150, 150);
+}
+#vertnav{
+    display: block;
 }
