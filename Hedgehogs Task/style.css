@@ -22,3 +22,11 @@ body{
 .nav :hover{
     background-color:#544125;
 }
+th, tr{
+    border:2px #947341;
+    padding:4px;
+}
+img{
+    width:200px;
+    height:150px;
+}
