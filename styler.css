@@ -23,6 +23,14 @@ nav{
     position:sticky;
     top:0;
 }
+#Footer{
+    background-color: rgb(57, 138, 185); 
+    color:white; 
+    padding:8px; 
+    text-align:center;
+    position:relative;
+    top:600px;
+}
 th, td{
     border:2px solid black; 
     padding:4px;
