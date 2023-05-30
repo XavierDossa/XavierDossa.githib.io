@@ -1,0 +1,32 @@
+#TheBody{
+    text-align: center;
+    background-color: rgb(222, 222, 222);
+  }
+#Title{
+    background-color: rgb(33, 173, 126);
+    color: white;
+    text-align: center;
+    padding: 8px
+}
+.Navbarbutton{
+
+}
+button{
+    background-color:rgb(33, 173, 126);
+}
+#DivTest{
+    background-color: rgb(69, 202, 158); 
+    width:200px; 
+    height:200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#colors{
+    animation: colors infinite 2s;
+    font-size: 25px;
+}
+@keyframes colors{
+    0%{color: blue; font-size: 100%;}
+    50%{color: red; font-size: 75%;}
+    100%{color: blue; font-size: 100%;}
+}
